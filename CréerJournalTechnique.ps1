@@ -8,5 +8,5 @@ Action  : Suppression des fichiers .tmp
 Result  : OK
 "@
 
-$LogPath = "C:\Users\Kouka\Documents\B\03_LearningEducation\01_JournalTechnique\JournalTech_$FilenameDate.txt"
+$LogPath = "C:\...\JournalTech_$FilenameDate.txt"
 $Log | Out-File -FilePath $LogPath -Encoding UTF8
