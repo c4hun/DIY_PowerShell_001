@@ -1,8 +1,8 @@
 # Define the root folder you want to audit
-$rootPath = "C:\Users\Kouka"
+$rootPath = "C:\Users\..."
 
 # Define output CSV path
-$outputCsv = "C:\Users\Kouka\Documents\B\03_LearningEducation\99_Labo\AuditReport\AuditReport.csv"
+$outputCsv = "C:\...\AuditReport.csv"
 
 # Recursively get all items and filter by LastWriteTime
 Get-ChildItem -Path $rootPath -Recurse | Where-Object {
