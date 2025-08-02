@@ -1,0 +1,1 @@
+ls -Recurse | Where-Object { $_.Name -like "desk" -and $_.LastWriteTime -gt (Get-Date "2024-07-30") } | Sort-Object LastWriteTime -Descending
