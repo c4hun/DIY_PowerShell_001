@@ -1,0 +1,1 @@
+Get-ChildItem -Path . -Filter "*.txt" -Recurse | Select-String -Pattern "JOURNAL" | Group-Object Line | Where-Object { $_.Count -gt 1 } | Select-Object Name, Count
